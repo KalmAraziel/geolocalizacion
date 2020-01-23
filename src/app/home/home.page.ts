@@ -36,7 +36,7 @@ export class HomePage {
 
 
   loadMap() {
-    const latLng = new google.maps.LatLng(0,0);
+    const latLng = new google.maps.LatLng(0, 0);
     const mapOptions = {
       center: latLng,
       zoom: 5,
@@ -63,7 +63,7 @@ export class HomePage {
           return { id, ... data };
         }) )
       );
-        
+
       this.locations.subscribe( () => {
 
       });
